@@ -14,3 +14,17 @@ Product.create(
   image_url: 'hula-hoop.jpg',
   price: 5.99
 )
+
+Product.create( 
+  title: 'Hula hoop color',
+  description: %{<p>Best for fitness</p>},
+  image_url: 'hula-hoop-color.jpg',
+  price: 6.99
+)
+
+Product.create( 
+  title: 'Hula hoop striped',
+  description: %{<p>Best for fitness</p>},
+  image_url: 'hula-hoop-striped.jpg',
+  price: 8.99
+)
